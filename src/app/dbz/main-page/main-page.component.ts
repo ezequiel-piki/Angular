@@ -21,4 +21,13 @@ export class MainPageComponent {
      poder :8500
    }
   ];
+
+  nuevo : Personaje = {
+    nombre: 'Yamcha',
+    poder:10
+  }
+
+  agregarNuevoPersonaje (){
+    console.log('main page component')
+  }
 }
